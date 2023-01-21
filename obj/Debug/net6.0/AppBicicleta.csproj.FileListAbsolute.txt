@@ -1,0 +1,15 @@
+C:\Users\bxnju\OneDrive\Escritorio\2023_POO\AppBicicleta\AppBicicleta\bin\Debug\net6.0\AppBicicleta.exe
+C:\Users\bxnju\OneDrive\Escritorio\2023_POO\AppBicicleta\AppBicicleta\bin\Debug\net6.0\AppBicicleta.deps.json
+C:\Users\bxnju\OneDrive\Escritorio\2023_POO\AppBicicleta\AppBicicleta\bin\Debug\net6.0\AppBicicleta.runtimeconfig.json
+C:\Users\bxnju\OneDrive\Escritorio\2023_POO\AppBicicleta\AppBicicleta\bin\Debug\net6.0\AppBicicleta.dll
+C:\Users\bxnju\OneDrive\Escritorio\2023_POO\AppBicicleta\AppBicicleta\bin\Debug\net6.0\AppBicicleta.pdb
+C:\Users\bxnju\OneDrive\Escritorio\2023_POO\AppBicicleta\AppBicicleta\obj\Debug\net6.0\AppBicicleta.csproj.AssemblyReference.cache
+C:\Users\bxnju\OneDrive\Escritorio\2023_POO\AppBicicleta\AppBicicleta\obj\Debug\net6.0\AppBicicleta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bxnju\OneDrive\Escritorio\2023_POO\AppBicicleta\AppBicicleta\obj\Debug\net6.0\AppBicicleta.AssemblyInfoInputs.cache
+C:\Users\bxnju\OneDrive\Escritorio\2023_POO\AppBicicleta\AppBicicleta\obj\Debug\net6.0\AppBicicleta.AssemblyInfo.cs
+C:\Users\bxnju\OneDrive\Escritorio\2023_POO\AppBicicleta\AppBicicleta\obj\Debug\net6.0\AppBicicleta.csproj.CoreCompileInputs.cache
+C:\Users\bxnju\OneDrive\Escritorio\2023_POO\AppBicicleta\AppBicicleta\obj\Debug\net6.0\AppBicicleta.dll
+C:\Users\bxnju\OneDrive\Escritorio\2023_POO\AppBicicleta\AppBicicleta\obj\Debug\net6.0\refint\AppBicicleta.dll
+C:\Users\bxnju\OneDrive\Escritorio\2023_POO\AppBicicleta\AppBicicleta\obj\Debug\net6.0\AppBicicleta.pdb
+C:\Users\bxnju\OneDrive\Escritorio\2023_POO\AppBicicleta\AppBicicleta\obj\Debug\net6.0\AppBicicleta.genruntimeconfig.cache
+C:\Users\bxnju\OneDrive\Escritorio\2023_POO\AppBicicleta\AppBicicleta\obj\Debug\net6.0\ref\AppBicicleta.dll
