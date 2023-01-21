@@ -13,7 +13,7 @@ internal class Program
             byte vel_objetivo;
             byte opcion = 0;
             Bicicleta bicicleta = new Bicicleta();
-
+            
 
             do
             {

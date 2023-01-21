@@ -64,24 +64,45 @@ namespace AppBicicleta.Clases
             {
                 Console.Write("Acelerando bicicleta...");
 
-                using (var progress = new ProgressBar())
+                if (vel_objetivo > 45)
                 {
-                    for (int i = 0; i <= 100; i++)
+                    using (var progress = new ProgressBar())
                     {
-                        progress.Report((double)i / 100);
-                        Thread.Sleep(60);
+                        for (int i = 0; i <= 100; i++)
+                        {
+                            progress.Report((double)i / 100);
+                            Thread.Sleep(60);
+                        }
+                    }
+                }
+                else if (vel_objetivo > 25)
+                {
+                    using (var progress = new ProgressBar())
+                    {
+                        for (int i = 0; i <= 100; i++)
+                        {
+                            progress.Report((double)i / 100);
+                            Thread.Sleep(40);
+                        }
+                    }
+                }
+                else
+                {
+                    using (var progress = new ProgressBar())
+                    {
+                        for (int i = 0; i <= 100; i++)
+                        {
+                            progress.Report((double)i / 100);
+                            Thread.Sleep(20);
+                        }
                     }
                 }
 
-                while (velocidad_actual < vel_objetivo)
-                {
-                    velocidad_actual++;
-                }
+                velocidad_actual = vel_objetivo;
 
-                if (vel_objetivo == velocidad_actual)
-                {
-                    Console.WriteLine("\nLa bicicleta ha sido acelerada. Su nueva velocidad es: " + velocidad_actual);
-                }
+                
+                Console.WriteLine("\nLa bicicleta ha sido acelerada. Su nueva velocidad es: " + velocidad_actual);
+              
                 
             }
             catch (Exception)
@@ -97,7 +118,7 @@ namespace AppBicicleta.Clases
                 if(!(vel_objetivo < 0))
                 {
 
-                    Console.Write("Frenando bicicleta...");
+                    Console.Write("Bajando la velocidad de la bicicleta...");
 
                     using (var progress = new ProgressBar())
                     {
@@ -115,7 +136,7 @@ namespace AppBicicleta.Clases
 
                     if (vel_objetivo == velocidad_actual)
                     {
-                        Console.WriteLine("\nLa bicicleta ha sido frenada. Su nueva velocidad es: " + velocidad_actual);
+                        Console.WriteLine("\nLa velocidad ha disminuido. Su nueva velocidad es: " + velocidad_actual);
                     }
 
                 }
@@ -126,7 +147,7 @@ namespace AppBicicleta.Clases
             }
             catch (Exception)
             {
-                Console.WriteLine("Hubo un error frenando la cicla");
+                Console.WriteLine("Hubo un error disminuyendo la velocidad.");
             }
         }
 
@@ -137,16 +158,44 @@ namespace AppBicicleta.Clases
                 if (velocidad_actual != 0)
                 {
                     Console.Write("Parando bicicleta... ");
-                    velocidad_actual = 0;
 
-                    using (var progress = new ProgressBar())
+                    if (velocidad_actual > 45)
                     {
-                        for (int i = 0; i <= 100; i++)
+                        using (var progress = new ProgressBar())
                         {
-                            progress.Report((double)i / 100);
-                            Thread.Sleep(20);
+                            for (int i = 0; i <= 100; i++)
+                            {
+                                progress.Report((double)i / 100);
+                                Thread.Sleep(60);
+                            }
+                        }
+                    }else if(velocidad_actual > 30)
+                    {
+                        using (var progress = new ProgressBar())
+                        {
+                            for (int i = 0; i <= 100; i++)
+                            {
+                                progress.Report((double)i / 100);
+                                Thread.Sleep(40);
+                            }
                         }
                     }
+                    else
+                    {
+                        using (var progress = new ProgressBar())
+                        {
+                            for (int i = 0; i <= 100; i++)
+                            {
+                                progress.Report((double)i / 100);
+                                Thread.Sleep(20);
+                            }
+                        }
+                    }
+
+                    velocidad_actual = 0;
+
+                    
+
                     Console.ForegroundColor = ConsoleColor.DarkYellow;
                     Console.WriteLine("La bicicleta ha sido parada en su totalidad.");
                     Console.ResetColor();
@@ -161,7 +210,7 @@ namespace AppBicicleta.Clases
             }
             catch (Exception)
             {
-                Console.WriteLine("Hubo un error acelerando la cicla");
+                Console.WriteLine("Hubo un error parando la bicicleta.");
             }
         }
 
